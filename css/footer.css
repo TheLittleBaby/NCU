@@ -1,0 +1,31 @@
+.ncu-footer{
+    width: 100%;
+    background: #143270;
+    height: 39px;
+    padding: 35px 0px 35px 0px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ncu-footer .footer-img{
+    float: right;
+}
+
+.ncu-footer .footer-img img{
+    padding-bottom: 10px;
+}
+
+.ncu-footer .footer-link li{
+    display: inline-block;
+    padding-right: 30px;
+
+}
+
+.ncu-footer .footer-link{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.ncu-footer .footer-text{
+    font-size: 12px;
+}
