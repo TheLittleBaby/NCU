@@ -55,6 +55,12 @@
     border-top: 1px solid #DDD;
 }
 
+
+.friend-link select{
+    color: #888888;
+    min-width: 150px;
+}
+
 .link-tittle{
     width: 85px;
     padding-left: 10px;
@@ -98,6 +104,49 @@
     padding-top: 16px;
 }
 
+.new-footer .left .left-text span span{
+    background: #79909C;
+    width: 27px;
+    height: 12px;
+    padding: 2px 5px;
+    color: white;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.new-footer .left .left-text span a{
+    color: #666;
+}
+
+.new-footer .left .left-text span a:hover{
+    color: #2881BB;
+}
+
 .new-footer .right{
     float: right;
+}
+
+.new-footer .right .click{
+    background: url("../images/news/bg_tg.png") left center no-repeat;
+    padding: 40px 0 0 150px;
+}
+
+.new-footer .right .right-news-link a{
+    background: url("../images/news/ico_tg.png") left center no-repeat;
+    text-decoration: underline;
+    color: #0454A3;
+    line-height: 32px;
+    padding: 0 10px 0 22px;
+}
+
+.new-footer .QR-Code{
+    text-align: center;
+    line-height: 240%;
+    color: #666666;
+    float: right;
+    padding-right: 10px;
+    padding-top: 20px;
+    width: 80px;
 }

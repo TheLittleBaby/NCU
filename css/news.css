@@ -1,0 +1,166 @@
+.container{
+    width: 100%;
+}
+
+
+.container .title-new,.container .content1{
+    width: 1000px;
+    margin: 15px auto;
+}
+
+.container .title-new{
+    background: url(../images/news/bg_headline.png) left top no-repeat #F0F0F0;
+    padding-bottom: 10px;
+    color: #666666;
+}
+
+.container .title-new .text{
+    padding-left: 70px;
+}
+
+.container .title-new .text h1{
+    font-size: 26px;
+    font-weight: bold;
+    color: #E60000;
+    padding-left: 0.5em;
+    line-height: 48px;
+}
+
+.container .content1{
+    width: 982px;
+    margin-bottom: 15px;
+    height: 843px;
+    padding: 8px;
+    border: 1px solid #E3E3E3;
+}
+
+.container .content1 .imgnews{
+    float: left;
+    width: 462px;
+    height: 312px;
+    border: none;
+    background: url("../images/news/aaa.jpeg") no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.container .content1 .ndyw,.container .content1 .xycz{
+    float: right;
+    width: 510px;
+ }
+
+.container .content1 .ndyw h3{
+    height: 26px;
+    line-height: 26px;
+    border-bottom: 1px solid #999999;
+}
+
+
+.container .head-title em{
+    font-style: normal;
+    float: left;
+    background: url(../images/news/bg_h3.png) 5px center no-repeat;
+    color: #0454A3;
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 27px;
+    border-bottom: 1px solid #2A89D3;
+}
+
+.container .head-title h3 a{
+    float: right;
+    font-weight: normal;
+    color: #888888;
+    font-size: 12px;
+}
+
+
+.container .content1 .ndyw .new-list{
+    padding: 5px 5px 0 5px;
+}
+
+.container .dot li{
+    background: url(../images/news/ico_newslist.png) no-repeat 5px center;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 18px;
+}
+
+
+.container .content1 .ndyw .new-list li a{
+    float: left;
+    font-size: 14px;
+    color: #1E234D;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.container .content1 .ndyw .new-list li a:hover{
+    color: #2881BB;
+}
+
+
+.container .dot span{
+    background: url(../images/news/ico_date.png) left center no-repeat;
+    padding-left: 18px;
+    float: right;
+}
+
+.container .content1 .weibo{
+    width: 450px;
+    height: 219px;
+    float: left;
+    padding: 0 4px;
+    margin: 10px 0;
+    border: 1px solid #E3E3E3;
+    overflow: hidden;
+}
+
+.container .content1 .weibo h3{
+    position: relative;
+    z-index: 100;
+    height: 29px;
+    line-height: 29px;
+    background: url(../images/news/bg_weibo.png) no-repeat #fff;
+    text-align: right;
+    padding-right: 3px;
+}
+
+.container .content1 .weibo a{
+    font-size: 12px;
+    color: #0078B6;
+    font-weight: normal;
+}
+
+.container .content1 .xycz{
+    float: right;
+    margin-top: 5px;
+}
+
+.container .content1 .xycz .dot2{
+    padding: 5px 5px 0 5px;
+    clear: both;
+}
+
+.container .content1 .xycz .dot2 li{
+    background: url(../images/news/ico_newslist.png) no-repeat 5px center;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 18px;
+}
+
+.container .content1 .xycz .dot2 li a{
+    float: left;
+    font-size: 12px;
+    color: #1E234D;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container .content1 .xycz .dot2 li span{
+    /*background: url(../images/news/ico_date.png) left center no-repeat;*/
+    /*padding-left: 18px;*/
+    float: right;
+}
