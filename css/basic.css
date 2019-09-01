@@ -1,5 +1,17 @@
 *{
     margin: 0px;
     padding: 0px;
-    color: white;
+    outline: none;
+    font-size: 12px;
+    font-family: 宋体;
+    line-height: 150%;
+}
+
+li{
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
 }

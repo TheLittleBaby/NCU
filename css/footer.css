@@ -1,5 +1,7 @@
+/* 以下样式为南昌大学主页的footer样式 */
 .ncu-footer{
     width: 100%;
+    color: white;
     background: #143270;
     height: 39px;
     padding: 35px 0px 35px 0px;
@@ -28,4 +30,74 @@
 
 .ncu-footer .footer-text{
     font-size: 12px;
+}
+
+
+
+
+/* 以下样式为南昌大学新闻网的footer样式 */
+
+.new-footer{
+    width: 100%;
+    color: #888888;
+}
+
+.new-footer .content{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.friend-link{
+    background: #F0F0F0;
+    padding: 15px 5px 15px 5px;
+    clear: both;
+    min-width: 750px;
+    border-top: 1px solid #DDD;
+}
+
+.link-tittle{
+    width: 85px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #0454A3;
+    font-weight: 900;
+}
+
+.new-footer .left{
+    float: left;
+    padding: 25px 0px 0px 15px;
+}
+
+.new-footer .left li{
+    text-align: center;
+    display: inline-block;
+    width: 74px;
+    height: 16px;
+    border-right: 1px solid #888888;
+}
+
+.new-footer .left li:first-child{
+    text-align: left;
+}
+
+.new-footer .left li:last-child{
+    border: none;
+}
+
+.new-footer .left li a{
+    color: #888888;
+    line-height: 16px;
+}
+
+.new-footer .left li a:hover{
+    color: #2881BB;
+}
+
+
+.new-footer .left .left-text{
+    padding-top: 16px;
+}
+
+.new-footer .right{
+    float: right;
 }
